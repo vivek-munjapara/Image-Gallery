@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #161b22;
+}
+
+.nvbr {
+    box-shadow: 2px 2px 12px rgb(85, 85, 85);
+}
+
+.wid a {
+    max-width: 10%;
+}
+
+.wid img {
+    max-width: 90%;
+}
+
+.picmrgn img {
+    margin-top: 10px;
+    height: auto;
+}
+
+#photo {
+    columns: 4 280px;
+    padding-top: 20px ;
+    padding-bottom: 40px ;
+}
+
+
+.photodiv {
+    width: 100%;
+}
+
+.photodiv img {
+    border-radius: 8px;
+    box-shadow: 1px 2px 10px rgb(86, 86, 86);
+}
+
+#ldmr-btn{
+    display: none;
+    margin: auto;
+    /* padding-top: 30px; */
+    /* margin: 20px 0px; */
+}
+
+#hello{
+    display: block;
+    /* text-align: center; */
+}
