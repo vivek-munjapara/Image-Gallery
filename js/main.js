@@ -19,8 +19,8 @@ async function getValue(inputValue, perPage) {
                 AUthorization: '563492ad6f91700001000001a50248a19756492687753a2523d04a50'
             }
         })
-
-    let urldata = await url.json();
+        let urldata = await url.json();
+        console.log(urldata);
 
     if (urldata.status != 400 && urldata.status != 404 && inputValue.lenght != 0) {
         display(urldata);
@@ -55,7 +55,7 @@ display = (data) => {
 
     document.getElementById('photo').innerHTML = myArray.map((value) => {
         return `
-            <div class="photodiv picmrgn divheight">
+            <div class="photodiv picmrgn">
                 <img src="${value.src.original}" class="img-fluid" alt="...">
             </div>`
     }).join("");
